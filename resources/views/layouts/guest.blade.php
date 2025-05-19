@@ -116,7 +116,7 @@
             </nav>
 
             <div class="hidden md:block">
-                <a href="#"
+                <a href="{{ route('auth.index') }}"
                     class="px-6 py-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition">Login</a>
             </div>
             <div class="md:hidden">
@@ -149,7 +149,7 @@
                     class="block text-gray-600 hover:text-blue-600 transition">Pertanyaan</a>
                 <a href="#"
                     class="block text-gray-600 hover:text-blue-600 transition">Anonim</a>
-                <a href="#"
+                <a href="{{ route('auth.index') }}"
                     class="block mt-2 px-6 py-2 bg-blue-600 text-white rounded-full text-center shadow hover:bg-blue-700 transition">Login</a>
             </nav>
         </div>
